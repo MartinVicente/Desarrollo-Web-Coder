@@ -1,0 +1,300 @@
+/* Estilos Generales */
+
+*{
+    margin: 0;
+    padding: 0;    
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    margin-bottom: 90px;
+}
+
+nav{      
+    width: 100%;
+    padding: 15px;
+    background-color: black;    
+    background-size: 100% 100%;
+    text-align: center;
+    height: auto;
+    position: fixed;
+    top: 0;
+    box-shadow: 1px 2px 1px #e5b31c;
+    z-index: 2;
+}
+
+header ul li{
+    display: inline-block;
+    list-style: none;
+}
+header a{
+    text-decoration: none;
+    color: #e5b31c;
+    font-size: 2em;
+    padding: 10px;
+    margin: 60px;
+}
+
+footer hr{
+    background-color: #e5b31c;
+    border-color: #e5b31c;
+    margin: 30px 100px;
+
+}
+
+footer p{
+    margin-top: 30px;
+    text-align: center;
+    color:#e5b31c;
+    width: 97%;
+    height: auto;
+}
+
+.redesSocialesFooter{
+    font-size: 20px;    
+    padding: 10px;
+    margin: 10px;
+    width: 95%;
+    height: auto;
+    text-align: center;
+    display: inline-block;
+}
+
+footer a{
+    color: #e5b31c;
+}
+
+footer a .flecha{
+    color: gray;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    font-size: 40px;
+}
+
+
+.h1gral{
+    color: #e5b31c;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.divgral{
+    margin: 40px 100px;
+    text-decoration: underline;
+}
+
+.pgral{
+    display: inline;
+    color:white;
+    text-align: right;
+    padding: 20px;
+    margin: 10px;
+}
+
+
+/* Fin de estilos generales */
+
+
+/* ---------- Index ---------- */
+
+
+/*   Section1   */
+
+
+#Section1{
+    background-color: black;
+    color: white;
+}
+
+.videoPresentacion{
+    background-color: black;
+    text-align: center;
+}
+
+.redesSociales{
+    text-align: center;
+}
+
+.redesSociales a{
+    font-size: 40px;    
+    padding: 10px;
+    margin: 20px;
+}
+
+.fb{
+    color: #0572e6;
+}
+.tw{
+    color:#1d9bf0;
+}
+.ig{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.spotify{
+    color:#1ed760;
+}
+.yt{
+    color:red;
+}
+.apple{
+  color: #d6d6d6;
+}
+
+.center{
+    text-align: center;
+    padding:15px;
+    margin: 0px;
+}
+
+#Section1 input{
+    margin: 0px 0px;
+    padding: 10px;
+    width: 300px;
+    display: inline-block;
+}
+
+#Section1 button{
+    margin: 0px 0px;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 0px;    
+}
+
+
+/* Main*/
+
+
+#main_index{
+    background-color: black;
+    color: white;
+    margin-bottom: 15px;
+}
+
+#main_index h1{
+    text-align: center;
+    font-size: 2.5em;
+    color: #e5b31c;
+    text-decoration: underline;
+    padding: 30px;
+}
+
+#main_index img{
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+
+.p_proxshow{
+    display: inline;
+    padding: 20px;
+    text-align: justify;
+    height: 100%;
+}
+
+
+
+/* ---------- Fin Index ---------- */
+
+/* ---------- Comienzo Integrantes ---------- */
+
+
+
+.nombre_artista{
+    text-align: center;
+    color: white;
+    display: block;
+    margin: 30px;
+}
+
+#main_integrantes img{
+    float: left;
+    width: 195px;
+    height: 240px;
+    margin: 10px;
+}
+
+.nombre_foto{
+    text-align: center;
+    color: white;
+    display: block;
+}
+
+hr{
+    background-color: #e5b31c;
+    border-color: #e5b31c;
+    margin: 20px 15px;
+}
+
+
+
+/* ---------- Fin Integrantes ---------- */
+
+/* ---------- Comienzo Historia ---------- */
+
+
+
+.divimgcarr{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.imgcarrousel{
+    width: 89%;
+    height: 700px;
+}
+
+.divspotify{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.canciones_spotify{
+    width: 89%;
+    height: 400px;
+}
+
+
+
+/* ---------- Fin Integrantes ---------- */
+
+/* ---------- Comienzo Historia ---------- */
+
+
+
+#main_discografia img{
+    float: left;
+    width: 210px;
+    height: 140px;
+    margin: 15px;
+}
+
+
+
+/* ---------- Fin Historia ---------- */
+
+/* ---------- Comienzo Discografía ---------- */
+
+
+.titulo_albumes{
+    margin: 50px 40px;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+.nombre_disco{
+    text-align: center;
+    color: white;
+    display: block;
+    margin: 30px;
+}
