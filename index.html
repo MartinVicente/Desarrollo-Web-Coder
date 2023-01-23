@@ -16,25 +16,25 @@
 </head>
 <body>
     <header id="header">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">Gun's N Roses</a>
+              <a class="navbar-brand header-item" href="./index.html">Gun's N Roses</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link" href="./pages/integrantes.html">Integrantes</a>
+                    <a class="nav-link header-item" href="./pages/integrantes.html">Integrantes</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./pages/historia.html">Historia</a>
+                    <a class="nav-link header-item" href="./pages/historia.html">Historia</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./pages/discografia.html">Discografía</a>
+                    <a class="nav-link header-item" href="./pages/discografia.html">Discografía</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                    <a class="nav-link header-item" href="./pages/contacto.html">Contacto</a>
                   </li>
                 </ul>
               </div>
@@ -43,7 +43,7 @@
     </header>
     <main id="main_index">
         <div class="videoPresentacion">
-            <video autoplay muted loop src="./assets/gnr_loop_logo_05.mp4"></video>
+            <video autoplay muted loop src="./assets/gnr_loop_logo_05.mp4" class="img-fluid"></video>
         </div>
         <section id="Section1">
             <div class="redesSociales">
@@ -54,9 +54,9 @@
                 <a target="_blank" href="https://www.youtube.com/channel/UCIak6JLVOjqhStxrL1Lcytw"><i class="fa-brands fa-youtube yt"></i></a>
                 <a target="_blank" href="https://music.apple.com/us/artist/guns-n-roses/106621"><i class="fa-brands fa-apple apple"></i></a>
             </div>
-            <div class="center">
-                <input type="text">
-                <button>Sign up</button>
+            <div class="input-group flex-nowrap input">
+              <input type="text" class="form-control" placeholder="" aria-label="Recipient's username" aria-describedby="button-addon2">
+              <button class="btn btn-outline-secondary" type="button" id="button-addon2">Sign up</button>
             </div>
             <div class="center">
                 <p>Suscríbete con tu dirección de correo electrónico para mantenerte al día con las últimas noticias, eventos y exclusivas de Gun's n Roses</p>
@@ -66,15 +66,21 @@
             <div>
                 <h1>Próximos shows</h1>
             </div>
-            <div>
-                <img src="./assets/prox_show_index.jpg" alt="Próximo show GNR">
-                <p class="p_proxshow"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione quo harum officia est perferendis praesentium ea saepe nemo aliquid dicta reprehenderit vitae in officiis minus, velit sequi quibusdam facilis sunt. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro libero non, fugiat similique illo ipsum dolor deleniti autem sequi ullam voluptate sapiente modi. Dignissimos, vel at nulla autem error libero. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure sequi numquam ut! Eaque at     praesentium necessitatibus accusantium soluta expedita architecto odio nulla beatae fuga eum iure ipsum, vel odit commodi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga beatae, enim exercitationem non praesentium odit sit rem, ab voluptas ex consectetur! Natus vel odit alias. Velit optio vero delectus nobis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi consectetur eligendi nam distinctio repudiandae labore quam molestias, perspiciatis neque qui sed rerum atque voluptatibus nesciunt quae cupiditate autem amet. Non? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio minima hic harum accusantium recusandae omnis repudiandae corporis, quae, perspiciatis quia non pariatur? Explicabo sunt earum qui! Accusantium harum eum non? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque totam debitis dolore facilis praesentium possimus illo quia ipsum quod fuga, ut quasi ea neque consectetur laborum pariatur quidem aspernatur harum?
-                Totam voluptate architecto dicta dolor quidem consequatur fugit eveniet vitae ullam. Temporibus dolor quisquam non, quod optio placeat nihil nisi dolorem est, reiciendis totam aut repudiandae porro id. Molestiae, explicabo.
-                Cupiditate, saepe. Maiores enim quis praesentium repellat quidem itaque quaerat nobis fugit aperiam, officiis provident expedita sint, fuga blanditiis dignissimos eveniet facere? A facilis sapiente enim eius dolores tempore quo.
-                Repellat, placeat ex laboriosam natus sequi ipsa explicabo incidunt aspernatur nulla tempore. Eveniet esse aperiam in, molestiae maiores accusantium provident optio commodi doloribus cupiditate, alias veniam itaque ut consequatur. Quaerat.
-                Hic unde nemo optio modi obcaecati at suscipit maxime quidem repellendus fuga, accusamus eveniet saepe quo praesentium incidunt et commodi doloremque, ad aliquid fugit quibusdam? Modi, similique veritatis! Ut, minima.
-                Similique doloremque velit voluptate molestias facilis ipsam, natus aliquam at laboriosam cupiditate fugiat excepturi dolor nobis, asperiores quas! Autem culpa ipsam perspiciatis amet est animi id! Nobis unde vitae delectus.
-                Fugiat corrupti quaerat laborum ad minus adipisci, cumque unde atque soluta ipsam voluptatum fugit qui optio? Fugiat quos recusandae accusamus eum quo magni vel delectus, nesciunt rem, earum at mollitia!</p>
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-12 col-12">
+                  <img src="./assets/prox_show_index.jpg" class="img-fluid rounded mx-auto d-block" alt="Próximo show GNR">
+                </div>
+                <div class="col-lg-9 col-md-8 col-sm-12 col-12">
+                  <p class="p_proxshow text-start"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione quo harum officia est perferendis praesentium ea saepe nemo aliquid dicta reprehenderit vitae in officiis minus, velit sequi quibusdam facilis sunt. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro libero non, fugiat similique illo ipsum dolor deleniti autem sequi ullam voluptate sapiente modi. Dignissimos, vel at nulla autem error libero. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure sequi numquam ut! Eaque at     praesentium necessitatibus accusantium soluta expedita architecto odio nulla beatae fuga eum iure ipsum, vel odit commodi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga beatae, enim exercitationem non praesentium odit sit rem, ab voluptas ex consectetur! Natus vel odit alias. Velit optio vero delectus nobis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi consectetur eligendi nam distinctio repudiandae labore quam molestias, perspiciatis neque qui sed rerum atque voluptatibus nesciunt quae cupiditate autem amet. Non? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio minima hic harum accusantium recusandae omnis repudiandae corporis, quae, perspiciatis quia non pariatur? Explicabo sunt earum qui! Accusantium harum eum non? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque totam debitis dolore facilis praesentium possimus illo quia ipsum quod fuga, ut quasi ea neque consectetur laborum pariatur quidem aspernatur harum?
+                  Totam voluptate architecto dicta dolor quidem consequatur fugit eveniet vitae ullam. Temporibus dolor quisquam non, quod optio placeat nihil nisi dolorem est, reiciendis totam aut repudiandae porro id. Molestiae, explicabo.
+                  Cupiditate, saepe. Maiores enim quis praesentium repellat quidem itaque quaerat nobis fugit aperiam, officiis provident expedita sint, fuga blanditiis dignissimos eveniet facere? A facilis sapiente enim eius dolores tempore quo.
+                  Repellat, placeat ex laboriosam natus sequi ipsa explicabo incidunt aspernatur nulla tempore. Eveniet esse aperiam in, molestiae maiores accusantium provident optio commodi doloribus cupiditate, alias veniam itaque ut consequatur. Quaerat.
+                  Hic unde nemo optio modi obcaecati at suscipit maxime quidem repellendus fuga, accusamus eveniet saepe quo praesentium incidunt et commodi doloremque, ad aliquid fugit quibusdam? Modi, similique veritatis! Ut, minima.
+                  Similique doloremque velit voluptate molestias facilis ipsam, natus aliquam at laboriosam cupiditate fugiat excepturi dolor nobis, asperiores quas! Autem culpa ipsam perspiciatis amet est animi id! Nobis unde vitae delectus.
+                  Fugiat corrupti quaerat laborum ad minus adipisci, cumque unde atque soluta ipsam voluptatum fugit qui optio? Fugiat quos recusandae accusamus eum quo magni vel delectus, nesciunt rem, earum at mollitia!</p>
+                </div>
+              </div>
             </div>
         </section>
     </main>

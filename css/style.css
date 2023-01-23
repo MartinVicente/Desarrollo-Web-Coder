@@ -22,27 +22,22 @@ nav{
     height: auto;
     position: fixed;
     top: 0;
-    box-shadow: 1px 2px 1px #e5b31c;
+    border-bottom: 2px #e5b31c;
     z-index: 2;
 }
 
-header ul li{
-    display: inline-block;
-    list-style: none;
-}
-
-header ul li:hover{
+.header-item:hover{
     transform: scale(1.5);
     transition: 1.5s;
 }
 
 header a{
     text-decoration: none;
-    color: #e5b31c;
-    font-size: 2em;
+    color: #e5b31c !important;
     padding: 10px;
     margin: 60px;
 }
+
 .a-propio{
     text-decoration: none;
     color: #e5b31c;
@@ -94,7 +89,6 @@ footer a .flecha{
     color: #e5b31c;
     text-align: center;
     text-decoration: underline;
-    padding-top: 25px;
 }
 
 .divgral{
@@ -121,24 +115,29 @@ footer a .flecha{
 /*   Section1   */
 
 
+.videoPresentacion{
+    background-color: black;
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+
 #Section1{
     background-color: black;
     color: white;
 }
 
-.videoPresentacion{
-    background-color: black;
-    text-align: center;
-}
-
 .redesSociales{
     text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
 }
 
 .redesSociales a{
-    font-size: 40px;    
+    font-size: 35px;    
     padding: 10px;
-    margin: 20px;
+    margin: 15px;
 }
 
 .fb{
@@ -169,19 +168,11 @@ footer a .flecha{
     margin: 0px;
 }
 
-#Section1 input{
-    margin: 0px 0px;
-    padding: 10px;
-    width: 300px;
-    display: inline-block;
+.input{
+    text-align: center;
+    padding: 15px 10vh;
 }
 
-#Section1 button{
-    margin: 0px 0px;
-    padding: 10px;
-    display: inline-block;
-    border-radius: 0px;    
-}
 
 
 /* Main*/
@@ -202,7 +193,7 @@ footer a .flecha{
 }
 
 #main_index img{
-    float: left;
+    float: center;
     width: 200px;
     height: 200px;
 }
