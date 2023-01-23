@@ -288,7 +288,7 @@ hr{
 
 
 #main_discografia img{
-    float: left;
+    float: center;
     width: 210px;
     height: 140px;
     margin: 15px;
