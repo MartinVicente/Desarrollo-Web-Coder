@@ -15,7 +15,7 @@ header{
 
 nav{      
     width: 100%;
-    padding: 15px;
+    padding: 10px;
     background-color: black;    
     background-size: 100% 100%;
     text-align: center;
@@ -23,7 +23,12 @@ nav{
     position: fixed;
     top: 0;
     border-bottom: 2px #e5b31c;
-    z-index: 2;
+    z-index: 2;    
+}
+
+.navbar-propia{
+    --bs-navbar-brand-font-size: 1.5rem;
+    --bs-navbar-padding-y: 0rem;
 }
 
 .header-item:hover{
@@ -35,7 +40,7 @@ header a{
     text-decoration: none;
     color: #e5b31c !important;
     padding: 10px;
-    margin: 60px;
+    margin: 30px 50px;
 }
 
 .a-propio{
@@ -89,6 +94,7 @@ footer a .flecha{
     color: #e5b31c;
     text-align: center;
     text-decoration: underline;
+    margin-top: 150px;
 }
 
 .divgral{
@@ -130,7 +136,7 @@ footer a .flecha{
 .redesSociales{
     text-align: center;
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
