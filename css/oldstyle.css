@@ -50,13 +50,6 @@ header a{
     margin: 30px 30px;
 }
 
-.a-propio{
-    text-decoration: none;
-    color: #e5b31c;
-    font-size: 2em;
-    padding: 10px;
-    margin: 60px; 
-}
 
 footer hr{
     background-color: #e5b31c;
@@ -105,7 +98,7 @@ footer a .flecha{
 }
 
 .divgral{
-    margin: 40px 80px;
+    margin: 40px 0px;
     text-decoration: underline;
 }
 
