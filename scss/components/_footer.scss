@@ -1,0 +1,38 @@
+footer{
+    hr{
+        background-color: $yellow;
+        border-color: $yellow;
+        margin: 30px 100px;
+    }
+
+    p{
+        margin-top: 30px;
+        @extend %txt-ag;
+        color: $yellow;
+        width: 97%;
+        height: auto;
+    }
+
+    a{
+        color: $yellow;
+
+        .flecha{
+            color: gray;
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            font-size: 40px;
+            z-index: 3;
+        }
+    }
+}
+
+.redesSocialesFooter{
+    font-size: 20px;    
+    padding: 10px;
+    margin: 10px;
+    width: 95%;
+    height: auto;
+    @extend %txt-ag;
+    display: inline-block;
+}

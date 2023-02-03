@@ -1,3 +1,250 @@
+.nombre_disco, .titulo_albumes, .divspotify, .divimgcarr, .nombre_foto, .nombre_artista, .p_proxshow, #main_index h1, .input, .center, .redesSociales, .videoPresentacion, .pgral, .h1gral, .redesSocialesFooter, footer p, header nav {
+  text-align: center;
+}
 
+.p_proxshow, .redesSociales, .pgral {
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  margin-bottom: 90px;
+}
+header nav {
+  width: 100%;
+  padding: 10px;
+  background-color: black;
+  background-size: 100% 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  border-bottom: 2px #e5b31c;
+  z-index: 2;
+}
+header nav a {
+  text-decoration: none;
+  color: #e5b31c !important;
+  padding: 10px;
+  margin: 30px 30px;
+}
+
+.navbar-propia {
+  --bs-navbar-brand-font-size: 1.5rem;
+  --bs-navbar-padding-y: 0rem;
+}
+
+.icono-nav {
+  background-color: black;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(229, 179, 28, 0.85)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  border: 2px;
+  margin: 30px 30px;
+}
+
+.header-item:hover {
+  transform: scale(1.5);
+  transition: 1.5s;
+}
+
+footer hr {
+  background-color: #e5b31c;
+  border-color: #e5b31c;
+  margin: 30px 100px;
+}
+footer p {
+  margin-top: 30px;
+  color: #e5b31c;
+  width: 97%;
+  height: auto;
+}
+footer a {
+  color: #e5b31c;
+}
+footer a .flecha {
+  color: gray;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  font-size: 40px;
+  z-index: 3;
+}
+
+.redesSocialesFooter {
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px;
+  width: 95%;
+  height: auto;
+  display: inline-block;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+}
+
+.h1gral {
+  color: #e5b31c;
+  text-decoration: underline;
+  margin-top: 150px;
+}
+
+.divgral {
+  margin: 40px 0px;
+  text-decoration: underline;
+}
+
+.pgral {
+  color: white;
+  margin: 10px;
+}
+
+hr {
+  background-color: #e5b31c;
+  border-color: #e5b31c;
+  margin: 20px 85px;
+  height: 4px;
+}
+
+/*   Section1   */
+.videoPresentacion {
+  background-color: black;
+  width: auto;
+  height: auto;
+}
+
+#Section1 {
+  background-color: black;
+  color: white;
+}
+
+.redesSociales {
+  display: flex;
+  flex-wrap: wrap;
+}
+.redesSociales a {
+  font-size: 35px;
+  padding: 10px;
+  margin: 15px;
+}
+
+.fb {
+  color: #0572e6;
+}
+
+.tw {
+  color: #1d9bf0;
+}
+
+.ig {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.spotify {
+  color: #1ed760;
+}
+
+.yt {
+  color: red;
+}
+
+.apple {
+  color: #d6d6d6;
+}
+
+.center {
+  padding: 15px;
+  margin: 0px;
+}
+
+.input {
+  padding: 15px 10vh;
+}
+
+/* Main*/
+#main_index {
+  background-color: black;
+  color: white;
+  margin-bottom: 15px;
+}
+#main_index h1 {
+  font-size: 2.5em;
+  color: #e5b31c;
+  text-decoration: underline;
+  padding: 30px;
+}
+#main_index img {
+  float: center;
+  width: 200px;
+  height: 200px;
+}
+
+.p_proxshow {
+  padding: 20px;
+  height: 100%;
+}
+
+.nombre_artista {
+  color: white;
+  display: block;
+  margin: 30px;
+}
+
+#main_integrantes img {
+  float: center;
+  width: 195px;
+  height: 240px;
+  margin: 10px;
+}
+
+.nombre_foto {
+  color: white;
+  display: block;
+}
+
+.divimgcarr {
+  width: 100%;
+  height: auto;
+}
+
+.imgcarrousel {
+  width: 89%;
+  height: 700px;
+}
+
+.divspotify {
+  width: 100%;
+  height: auto;
+}
+
+.canciones_spotify {
+  width: 89%;
+  height: 400px;
+}
+
+#main_discografia img {
+  float: center;
+  width: 210px;
+  height: 140px;
+  margin: 15px;
+}
+
+.titulo_albumes {
+  margin: 50px 40px;
+  color: white;
+  text-decoration: underline;
+}
+
+.nombre_disco {
+  color: white;
+  display: block;
+  margin: 30px;
+}
 
 /*# sourceMappingURL=style.css.map */

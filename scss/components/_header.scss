@@ -1,0 +1,40 @@
+header{
+    margin-bottom: 90px;
+
+    nav{
+        width: 100%;
+        padding: 10px;
+        background-color: $bg-color;    
+        background-size: 100% 100%;
+        @extend %txt-ag;
+        height: auto;
+        position: fixed;
+        top: 0;
+        border-bottom: 2px $yellow;
+        z-index: 2;
+
+        a{
+            text-decoration: map-get($links, decoracion);
+            color: map-get($links, color) !important;
+            padding: map-get($links, padding);
+            margin: map-get($links, margen);
+        }
+    }
+}
+
+.navbar-propia{
+    --bs-navbar-brand-font-size: 1.5rem;
+    --bs-navbar-padding-y: 0rem;
+}
+
+.icono-nav {
+    background-color: $bg-color;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(229, 179, 28, 0.85)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    border: 2px;
+    margin: map-get($links, margen);
+  }
+
+.header-item:hover{
+    transform: scale(1.5);
+    transition: 1.5s;
+}

@@ -1,0 +1,22 @@
+#main_discografia{
+    img{
+        float: center;
+        width: 210px;
+        height: 140px;
+        margin: 15px;
+    }
+}
+
+.titulo_albumes{
+    margin: 50px 40px;
+    color: $p-color;
+    @extend %txt-ag;
+    text-decoration: underline;
+}
+
+.nombre_disco{
+    @extend %txt-ag;
+    color: $p-color;
+    display: block;
+    margin: 30px;
+}

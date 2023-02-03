@@ -1,0 +1,21 @@
+.divimgcarr{
+    width: 100%;
+    height: auto;
+    @extend %txt-ag;
+}
+
+.imgcarrousel{
+    width: 89%;
+    height: 700px;
+}
+
+.divspotify{
+    width: 100%;
+    height: auto;
+    @extend %txt-ag;
+}
+
+.canciones_spotify{
+    width: 89%;
+    height: 400px;
+}

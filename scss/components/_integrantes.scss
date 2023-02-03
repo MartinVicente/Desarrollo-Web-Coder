@@ -1,0 +1,21 @@
+.nombre_artista{
+    @extend %txt-ag;
+    color: $p-color;
+    display: block;
+    margin: 30px;
+}
+
+#main_integrantes{
+    img{
+        float: center;
+        width: 195px;
+        height: 240px;
+        margin: 10px;
+    }
+}
+
+.nombre_foto{
+    @extend %txt-ag;
+    color: $p-color;
+    display: block;
+}
