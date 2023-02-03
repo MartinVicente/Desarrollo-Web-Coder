@@ -12,6 +12,7 @@
     color: $p-color;
     @extend %txt-ag;
     text-decoration: underline;
+    @extend %h2txt;
 }
 
 .nombre_disco{
@@ -19,4 +20,6 @@
     color: $p-color;
     display: block;
     margin: 30px;
+    @extend %h2txt;
+    font-weight: 400;
 }

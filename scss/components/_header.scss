@@ -12,12 +12,15 @@ header{
         top: 0;
         border-bottom: 2px $yellow;
         z-index: 2;
+        
 
         a{
             text-decoration: map-get($links, decoracion);
             color: map-get($links, color) !important;
             padding: map-get($links, padding);
             margin: map-get($links, margen);
+            font-family: 'Roboto Slab', serif;
+            font-weight: 600;
         }
     }
 }

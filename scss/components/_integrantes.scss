@@ -3,6 +3,7 @@
     color: $p-color;
     display: block;
     margin: 30px;
+    @extend %h2txt;
 }
 
 #main_integrantes{

@@ -7,6 +7,11 @@
   align-items: center;
 }
 
+.nombre_disco, .titulo_albumes, .nombre_artista {
+  font-family: "Roboto Slab", serif;
+  font-weight: 500;
+}
+
 header {
   margin-bottom: 90px;
 }
@@ -26,6 +31,8 @@ header nav a {
   color: #e5b31c !important;
   padding: 10px;
   margin: 30px 30px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 600;
 }
 
 .navbar-propia {
@@ -90,6 +97,8 @@ body {
   color: #e5b31c;
   text-decoration: underline;
   margin-top: 150px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 500;
 }
 
 .divgral {
@@ -100,6 +109,8 @@ body {
 .pgral {
   color: white;
   margin: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
 }
 
 hr {
@@ -245,6 +256,7 @@ hr {
   color: white;
   display: block;
   margin: 30px;
+  font-weight: 400;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -12,6 +12,8 @@ body{
     @extend %txt-ag;
     text-decoration: underline;
     margin-top: 150px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
 }
 
 .divgral{
@@ -24,6 +26,8 @@ body{
     @extend %txt-ag;
     @extend %disposicion;
     margin: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
 }
 
 
