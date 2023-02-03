@@ -7,7 +7,7 @@
   align-items: center;
 }
 
-.nombre_disco, .titulo_albumes, .nombre_artista {
+.nombre_disco, .titulo_albumes, .nombre_artista, .h1gral {
   font-family: "Roboto Slab", serif;
   font-weight: 500;
 }
@@ -97,8 +97,6 @@ body {
   color: #e5b31c;
   text-decoration: underline;
   margin-top: 150px;
-  font-family: "Roboto Slab", serif;
-  font-weight: 500;
 }
 
 .divgral {
