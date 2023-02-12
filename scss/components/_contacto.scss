@@ -1,0 +1,22 @@
+.btn-form{
+    background-color: $yellow;
+    color:$bg-color;
+    border-color: $yellow;
+    
+    &:hover{
+        background-color: $yellow;
+        color:$bg-color;
+        border-color: $yellow;
+    }    
+}
+
+.center{
+    @extend %disposicion;
+    @extend %txt-ag;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.txt-area{
+    resize: none;
+}

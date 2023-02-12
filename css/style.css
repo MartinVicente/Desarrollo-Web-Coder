@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.p_proxshow, .redesSociales, .pgral {
+.center, .p_proxshow, .redesSociales, .pgral {
   justify-content: center;
   align-items: center;
 }
@@ -255,6 +255,26 @@ hr {
   display: block;
   margin: 30px;
   font-weight: 400;
+}
+
+.btn-form {
+  background-color: #e5b31c;
+  color: black;
+  border-color: #e5b31c;
+}
+.btn-form:hover {
+  background-color: #e5b31c;
+  color: black;
+  border-color: #e5b31c;
+}
+
+.center {
+  margin: 0 auto;
+  width: 60%;
+}
+
+.txt-area {
+  resize: none;
 }
 
 /*# sourceMappingURL=style.css.map */
